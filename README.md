@@ -1,9 +1,14 @@
 [![Gem Version](https://badge.fury.io/rb/sort_index_table.svg)](https://badge.fury.io/rb/sort_index_table)
 # SortIndexTable
+## 概要
 rails アプリのscaffordで生成したindex.html.erbにソート機能を付与します。
 ![](http://www.gakusmemo.com/wp-content/uploads/2017/10/Untitled.gif)
 
 ## 使い方
+railsプロジェクトのGemfileに以下を記述し、インストールします。
+
+    gem 'sort_index_table', '~> 0.1.0'
+
 index.html.erbのテーブルヘッダー部分を  
 <%= sort_item "表示名","カラム名" %>というように  
 以下のような形で修正します。
