@@ -5,7 +5,7 @@ require "sort_index/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "sort_index"
+  s.name        = "sort_index_table"
   s.version     = SortIndex::VERSION
   s.authors     = ["gaku"]
   s.email       = ["pro.gaku@gmail.com"]
@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.1.4"
+  s.add_dependency 'rails', '~> 5.1', '>= 5.1.4'
 
-  s.add_development_dependency "sqlite3"
 end
