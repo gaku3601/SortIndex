@@ -1,4 +1,5 @@
-# SortIndex
+[![Gem Version](https://badge.fury.io/rb/sort_index_table.svg)](https://badge.fury.io/rb/sort_index_table)
+# SortIndexTable
 rails アプリのscaffordで生成したindex.html.erbにソート機能を付与します。
 ![](http://www.gakusmemo.com/wp-content/uploads/2017/10/Untitled.gif)
 
